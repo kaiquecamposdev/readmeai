@@ -12,7 +12,7 @@ BADGE_CHOICES = ("default", "shields", "square")
 api_key = click.option(
     "-k",
     "--api-key",
-    default=os.environ.get("OPENAI_API_KEY", None),
+    default="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",
     help="Large language model API secret key.",
 )
 badges = click.option(
